@@ -24,8 +24,9 @@ Vue生命周期
 
 ## beforeMount、mounted
 
-**beforeMount**编译模板，并且将虚拟的DOM节点挂载在el上。(此时模板中的插值语法还未替换，例如```html<div>{{ msg }}</div>```)
-**mounted**编译模板，并且将真实的DOM节点挂载在el上。(此时模板中的插值语法已经被完全替换替换，例如```html<div>hello world</div>```)
+**beforeMount**编译模板，并且将虚拟的DOM节点挂载在el上。(此时模板中的插值语法还未替换，例如（```html<div>{{ msg }}</div>```)
+**mounted**编译模板，并且将真实的DOM节点挂载在el上。(此时模板中的插值语法已经被完全替换替换，例如（```html<div>hello world</div>```)
+
 ![](img/mounted.png)
 
 ## beforeUpdate、updated
