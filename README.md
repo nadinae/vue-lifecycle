@@ -1,7 +1,7 @@
 # vue-lifecycle
 Vue生命周期
 
-![](imglifecycle.png)
+![](img/lifecycle.png)
 图片来源于vue官网
 
 ## vue生命周期钩子函数
