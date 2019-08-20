@@ -1,7 +1,7 @@
 # vue-lifecycle
 Vue生命周期
 
-![](https://cn.vuejs.org/images/lifecycle.png)
+![](imglifecycle.png)
 图片来源于vue官网
 
 ## vue生命周期钩子函数
@@ -27,7 +27,7 @@ Vue生命周期
 **beforeMount**编译模板，并且将虚拟的DOM节点挂载在el上。(此时模板中的插值语法还未替换，例如（```html<div>{{ msg }}</div>```)
 **mounted**编译模板，并且将真实的DOM节点挂载在el上。(此时模板中的插值语法已经被完全替换替换，例如（```html<div>hello world</div>```)
 
-![](img/mounted.png)
+![](img/1.png)
 
 ## beforeUpdate、updated
 
